@@ -1,2 +1,2 @@
-# pulCurrency
-.NET 8.0 solution to convert USD to EUR and JPY conversion to demonstrate building an Azure DevOps Artifact NuGet package.
+# 0077-azvm-snapshots
+Manage Azure VM Snapshots to integrate with system updates lifecycle and rolling back to a previous version.

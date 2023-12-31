@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>Parts Unlimited Foreign Currency Package</Title>
+    <Authors>autocloudarc</Authors>
+    <Description>Currency conversion package for EUR, JPY and USD.</Description>
+    <Copyright>(c) Copyright 2023 Preston K. Parsard</Copyright>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://dev.azure.com/autocloudarc/Parts/_git/pulFrnCurrency</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>EUR;JPY;USD</PackageTags>
+    <PackageReleaseNotes>Foreign Currency Coverter</PackageReleaseNotes>
+    <PackAsTool>True</PackAsTool>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+    <FileVersion>2.0.0.0</FileVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
